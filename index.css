@@ -12,7 +12,8 @@
 .contact{
     background-image: url("./pics/g.jpg");
     object-fit: cover;
-    
+width: 50%;
+margin-right: 10px;
 }
 .demos{
     display: flex;
