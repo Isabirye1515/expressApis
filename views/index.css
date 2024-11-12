@@ -1,0 +1,90 @@
+.body{
+    background-color: #5b6f72f1;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header{
+    background-image: url("../elijahProject/pics/f.jpg");
+    object-fit: center;
+    height: 400px;
+    width: 100%;
+    position: static;
+}
+.contact{
+    background-image: url("../elijahProject/pics/g.jpg");
+    object-fit: cover;
+width: 50%;
+margin-right: 10px;
+}
+.demos{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    img{
+        border-radius: 4px;
+        object-fit: cover;
+    }
+    div{
+        margin: 10px;
+        width:500px;
+    }
+
+}
+.movie{
+    background: #faf9f9;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    border:#ddd 2px solid;
+    border-radius: 10px;
+    box-shadow: 0.05rem 0.05rem ;
+    margin: 4px;
+    div{
+        margin: 5px;
+    }
+}
+.lib{
+    width:50%;
+    img{
+        object-fit: cover;
+    }
+}
+@media screen and (max-width:1000px) {
+    .demos{
+        div{
+            width: 35%;
+        }
+    }
+}
+@media screen and (max-width:770PX) {
+    .demos{
+        flex-direction: column;
+        div{
+            width: 100%;
+        }
+        .me{
+    width:100%;
+        }
+    }
+    .movie{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .lib{
+        width: 100%;
+        
+    }
+    .lib{
+        width: 100%;
+    }
+    
+}
+.hero2{
+    background-image: url("../elijahProject/pics/f.jpg");
+}
+.reason{
+    background-color: #f3e7e7;
+    padding: 10px;
+    margin: 10px;
+    
+}
